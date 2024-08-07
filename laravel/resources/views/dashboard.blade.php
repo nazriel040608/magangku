@@ -15,6 +15,3 @@
         </div>
     </div>
 </x-app-layout>
-
-<x-app-layout>
-    <x-slot name="header">
