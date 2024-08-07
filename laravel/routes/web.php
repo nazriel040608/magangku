@@ -7,6 +7,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/lala', function () {
+    return view('tampilan.dashbord-comic');
+});
+Route::get('/main', function () {
+    return view('layouts.main'); 
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
